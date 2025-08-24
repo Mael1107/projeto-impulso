@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 15px;
+    font-size: 1.5em;
+}
+
+section input {
+    height: 35px;
+    font-size: 1em;
+}
+
+section #button {
+    height: 35px;
+    font-size: 1.1em;
+}
