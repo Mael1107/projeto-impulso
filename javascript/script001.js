@@ -18,4 +18,8 @@ function Calcular() {
         let totalPrice = productPrice * productAmount
         message.innerHTML = `Product Name: ${productName} <br> Product Price: R$ ${productPrice.toFixed(2)} <br> Product Amount: ${productAmount.toFixed(1)} <br> Total Price: R$ ${totalPrice.toFixed(2)}`
     }
+
+    document.getElementById("iname").value = ""
+    document.getElementById("iprice").value = ""
+    document.getElementById("iamount").value = ""
 }
