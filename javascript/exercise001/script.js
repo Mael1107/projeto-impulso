@@ -23,3 +23,6 @@ function Calcular() {
     document.getElementById("iprice").value = ""
     document.getElementById("iamount").value = ""
 }
+
+
+
