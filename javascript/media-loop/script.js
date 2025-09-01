@@ -1,11 +1,16 @@
+// Segunda Atividade
+
 let notes = []
 let sum = 0
+let input = ""
 let note = 0
+
 
 for (let i = 1; i <= 5; i++) {
     do {
-        note = Number(prompt(`Enter your note ${i}: `))
-    } while ( !note || Number.isNaN(note) || note < 0)
+        input = prompt(`Enter your note ${i}: `)
+        note = Number(input)
+    } while ( input === "" || Number.isNaN(note) || note < 0)
     notes.push(note)
     sum += note
 }
